@@ -1,0 +1,35 @@
+.modal {
+  background-color: rgba(192, 192, 192, 0.6);
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.popUp {
+  border: 1px solid black;
+  background-color: white;
+  padding: 100px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.cross {
+  position: absolute;
+  right: 15px;
+  top: 5px;
+  font-size: 1.7em;
+  cursor: pointer;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  outline: inherit;
+}

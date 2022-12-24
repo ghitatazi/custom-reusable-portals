@@ -1,0 +1,10 @@
+.popover {
+  position: absolute;
+  transform: translate(-100px, -100%);
+  font-size: 12px;
+  background-color: white;
+  border: 1px solid black;
+  padding: 5px;
+  width: 200px;
+  text-align: center;
+}
